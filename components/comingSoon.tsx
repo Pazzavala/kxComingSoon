@@ -12,8 +12,7 @@ const ComingSoon = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date();
-    targetDate.setDate(targetDate.getDate() + 13);
+    const targetDate = new Date('2024-11-28T00:00:00');
 
     const calculateTimeLeft = () => {
       const now = new Date();
