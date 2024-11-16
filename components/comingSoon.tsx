@@ -13,7 +13,7 @@ const ComingSoon = () => {
 
   useEffect(() => {
     const targetDate = new Date();
-    targetDate.setDate(targetDate.getDate() + 30);
+    targetDate.setDate(targetDate.getDate() + 13);
 
     const calculateTimeLeft = () => {
       const now = new Date();
